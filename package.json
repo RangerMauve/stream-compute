@@ -1,0 +1,37 @@
+{
+  "name": "stream-compute",
+  "version": "1.0.0",
+  "description": "Combines several streams of events, and computes a value every time one changes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RangerMauve/stream-compute.git"
+  },
+  "keywords": [
+    "stream",
+    "compute",
+    "aggregate",
+    "merge"
+  ],
+  "author": "rangermauve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/stream-compute/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/stream-compute",
+  "dependencies": {
+    "no-op": "^1.0.3",
+    "par": "^0.3.0",
+    "readable-stream": "^1.0.33",
+    "through2": "^0.6.5",
+    "xtend": "^4.0.0"
+  },
+  "devDependencies": {
+    "interval-stream": "^0.2.0",
+    "stdout": "0.0.3",
+    "stream-array": "^1.1.0"
+  }
+}
